@@ -1,0 +1,55 @@
+body {
+    height: 95vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background-color: #b9dbf9; */
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.quest-img {
+    display: block;
+    margin: 0 auto 3em;
+    max-height: 350px;
+    padding: 1em;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.opts span {
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 1em auto;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: rgb(255, 235, 50);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s ease-out;
+}
+
+.game-button {
+    outline: none;
+    display: block;
+    margin: auto;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(17, 60, 109);
+    color: #eee;
+    box-shadow: 0px 0px 7px #777;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.game-button:active {
+    box-shadow: none;
+    transform: scale(0.95);
+}
