@@ -1,0 +1,2 @@
+# inPic
+vanilla js project
